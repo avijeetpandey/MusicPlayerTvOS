@@ -9,10 +9,14 @@ import SwiftUI
 
 struct RootView: View {
     var body: some View {
-        ScrollView(.horizontal) {
-            LazyHStack {
-                ForEach(MockData.mockAlbums) { album in
-                    AlbumCard(album: album)
+        NavigationStack {
+            ZStack {
+                Color("bgColor")
+                    .ignoresSafeArea()
+                
+                VStack {
+                    HomeNavigationBarView()
+                    HorizontalScrollAlbums()
                 }
             }
         }
