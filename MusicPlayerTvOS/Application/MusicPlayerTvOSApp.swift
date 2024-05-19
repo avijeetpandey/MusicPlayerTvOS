@@ -11,7 +11,7 @@ import SwiftUI
 struct MusicPlayerTvOSApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView()
         }
     }
 }

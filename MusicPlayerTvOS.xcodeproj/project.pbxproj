@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		8A3A6EB22BFA26B200F281F6 /* MusicPlayerTvOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3A6EB12BFA26B200F281F6 /* MusicPlayerTvOSApp.swift */; };
-		8A3A6EB42BFA26B200F281F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3A6EB32BFA26B200F281F6 /* ContentView.swift */; };
+		8A3A6EB42BFA26B200F281F6 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3A6EB32BFA26B200F281F6 /* RootView.swift */; };
 		8A3A6EB62BFA26B300F281F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A3A6EB52BFA26B300F281F6 /* Assets.xcassets */; };
 		8A3A6EB92BFA26B300F281F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A3A6EB82BFA26B300F281F6 /* Preview Assets.xcassets */; };
+		8A3A6EC42BFA2D0E00F281F6 /* AlbumCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3A6EC32BFA2D0E00F281F6 /* AlbumCard.swift */; };
+		8A3A6EC62BFA2E8400F281F6 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3A6EC52BFA2E8400F281F6 /* Album.swift */; };
+		8A3A6EC82BFA2EAC00F281F6 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3A6EC72BFA2EAC00F281F6 /* MockData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8A3A6EAE2BFA26B200F281F6 /* MusicPlayerTvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayerTvOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A3A6EB12BFA26B200F281F6 /* MusicPlayerTvOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerTvOSApp.swift; sourceTree = "<group>"; };
-		8A3A6EB32BFA26B200F281F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8A3A6EB32BFA26B200F281F6 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		8A3A6EB52BFA26B300F281F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A3A6EB82BFA26B300F281F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8A3A6EC32BFA2D0E00F281F6 /* AlbumCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCard.swift; sourceTree = "<group>"; };
+		8A3A6EC52BFA2E8400F281F6 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		8A3A6EC72BFA2EAC00F281F6 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +57,11 @@
 		8A3A6EB02BFA26B200F281F6 /* MusicPlayerTvOS */ = {
 			isa = PBXGroup;
 			children = (
-				8A3A6EB12BFA26B200F281F6 /* MusicPlayerTvOSApp.swift */,
-				8A3A6EB32BFA26B200F281F6 /* ContentView.swift */,
+				8A3A6EC22BFA284200F281F6 /* Model */,
+				8A3A6EC12BFA283A00F281F6 /* ViewModel */,
+				8A3A6EC02BFA283200F281F6 /* Views */,
+				8A3A6EBF2BFA281C00F281F6 /* Application */,
+				8A3A6EB32BFA26B200F281F6 /* RootView.swift */,
 				8A3A6EB52BFA26B300F281F6 /* Assets.xcassets */,
 				8A3A6EB72BFA26B300F281F6 /* Preview Content */,
 			);
@@ -65,6 +74,38 @@
 				8A3A6EB82BFA26B300F281F6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8A3A6EBF2BFA281C00F281F6 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				8A3A6EB12BFA26B200F281F6 /* MusicPlayerTvOSApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		8A3A6EC02BFA283200F281F6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8A3A6EC32BFA2D0E00F281F6 /* AlbumCard.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8A3A6EC12BFA283A00F281F6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8A3A6EC22BFA284200F281F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8A3A6EC52BFA2E8400F281F6 /* Album.swift */,
+				8A3A6EC72BFA2EAC00F281F6 /* MockData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +178,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A3A6EB42BFA26B200F281F6 /* ContentView.swift in Sources */,
+				8A3A6EB42BFA26B200F281F6 /* RootView.swift in Sources */,
+				8A3A6EC42BFA2D0E00F281F6 /* AlbumCard.swift in Sources */,
 				8A3A6EB22BFA26B200F281F6 /* MusicPlayerTvOSApp.swift in Sources */,
+				8A3A6EC62BFA2E8400F281F6 /* Album.swift in Sources */,
+				8A3A6EC82BFA2EAC00F281F6 /* MockData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
