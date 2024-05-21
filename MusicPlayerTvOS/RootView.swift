@@ -10,15 +10,21 @@ import SwiftUI
 struct RootView: View {
     var body: some View {
         NavigationStack {
-            ZStack {
-                Color("bgColor")
-                    .ignoresSafeArea()
+            HStack(spacing: 32) {
+                NavigationSideBar()
+                    .frame(width: 50)
                 
-                VStack {
-                    HomeNavigationBarView()
-                    HorizontalScrollAlbums()
+                
+                ZStack {
+                    Color("bgColor")
+                        .ignoresSafeArea()
+                    
+                    VStack {
+                        HomeNavigationBarView()
+                        HorizontalScrollAlbums()
+                    }.padding(.leading, 32)
                 }
-            }
+            }.background(Color("bgColor"))
         }
     }
 }

@@ -26,4 +26,11 @@ class MockData {
         Album(id: UUID().uuidString, title: "New Album by Imagine dragons", subtitle: "Mercury Act: I"),
         Album(id: UUID().uuidString, title: "New Album by Imagine dragons", subtitle: "Mercury Act: I"),
     ]
+    
+    static let mockNavigationItems: [NavigationItem] = [
+        NavigationItem(title: "Home", symbolName: "house", isSelected: false),
+        NavigationItem(title: "Search", symbolName: "magnifyingglass", isSelected: false),
+        NavigationItem(title: "Explore", symbolName: "map.fill", isSelected: false),
+        NavigationItem(title: "Liked", symbolName: "heart.fill", isSelected: false),
+    ]
 }

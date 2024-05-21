@@ -17,8 +17,6 @@ struct HomeNavigationBarView: View {
             
             Spacer()
             
-            
-            
             ZStack {
                 Circle()
                     .fill(.white.opacity(0.45))
