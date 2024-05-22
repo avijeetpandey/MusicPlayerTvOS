@@ -20,8 +20,7 @@ struct RootView: View {
                         .ignoresSafeArea()
                     
                     VStack {
-                        HomeNavigationBarView()
-                        HorizontalScrollAlbums()
+                        Home()
                     }.padding(.leading, 32)
                 }
             }.background(Color("bgColor"))

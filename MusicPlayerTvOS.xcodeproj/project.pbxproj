@@ -19,6 +19,7 @@
 		8A3A6ED02BFA824D00F281F6 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3A6ECF2BFA824D00F281F6 /* AppConstants.swift */; };
 		8A3A6ED22BFA879600F281F6 /* NavigationSideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3A6ED12BFA879600F281F6 /* NavigationSideBar.swift */; };
 		8A3A6ED42BFA8C6700F281F6 /* NavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3A6ED32BFA8C6700F281F6 /* NavigationItem.swift */; };
+		8A3A6ED72BFDF75B00F281F6 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3A6ED62BFDF75B00F281F6 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		8A3A6ECF2BFA824D00F281F6 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 		8A3A6ED12BFA879600F281F6 /* NavigationSideBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSideBar.swift; sourceTree = "<group>"; };
 		8A3A6ED32BFA8C6700F281F6 /* NavigationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationItem.swift; sourceTree = "<group>"; };
+		8A3A6ED62BFDF75B00F281F6 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 		8A3A6EB02BFA26B200F281F6 /* MusicPlayerTvOS */ = {
 			isa = PBXGroup;
 			children = (
+				8A3A6ED52BFDF75100F281F6 /* Screen */,
 				8A3A6ECD2BFA822B00F281F6 /* Utils */,
 				8A3A6EC22BFA284200F281F6 /* Model */,
 				8A3A6EC12BFA283A00F281F6 /* ViewModel */,
@@ -137,6 +140,14 @@
 				8A3A6ECF2BFA824D00F281F6 /* AppConstants.swift */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		8A3A6ED52BFDF75100F281F6 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				8A3A6ED62BFDF75B00F281F6 /* Home.swift */,
+			);
+			path = Screen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +223,7 @@
 				8A3A6ECC2BFA81B400F281F6 /* HomeNavigationBarView.swift in Sources */,
 				8A3A6ECA2BFA310A00F281F6 /* HorizontalScrollAlbums.swift in Sources */,
 				8A3A6EB42BFA26B200F281F6 /* RootView.swift in Sources */,
+				8A3A6ED72BFDF75B00F281F6 /* Home.swift in Sources */,
 				8A3A6ED22BFA879600F281F6 /* NavigationSideBar.swift in Sources */,
 				8A3A6ED02BFA824D00F281F6 /* AppConstants.swift in Sources */,
 				8A3A6EC42BFA2D0E00F281F6 /* AlbumCard.swift in Sources */,
