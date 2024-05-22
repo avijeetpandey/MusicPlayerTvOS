@@ -16,7 +16,7 @@ struct HorizontalScrollAlbums: View {
                     AlbumCard(album: album)
                 }
             }
-        }
+        }.scrollIndicators(.never)
     }
 }
 
