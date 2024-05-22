@@ -23,6 +23,7 @@
 		8A3A6EDC2BFDF86C00F281F6 /* RecentlyPlayedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3A6EDB2BFDF86C00F281F6 /* RecentlyPlayedView.swift */; };
 		8A3A6EE12BFDFC4100F281F6 /* RecentlyPlayedTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3A6EE02BFDFC4100F281F6 /* RecentlyPlayedTile.swift */; };
 		8A3A6EE32BFE01E200F281F6 /* RecentlyPlayedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3A6EE22BFE01E200F281F6 /* RecentlyPlayedData.swift */; };
+		8A3A6EE52BFE10E400F281F6 /* PlaylistData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3A6EE42BFE10E400F281F6 /* PlaylistData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		8A3A6EDB2BFDF86C00F281F6 /* RecentlyPlayedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentlyPlayedView.swift; sourceTree = "<group>"; };
 		8A3A6EE02BFDFC4100F281F6 /* RecentlyPlayedTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentlyPlayedTile.swift; sourceTree = "<group>"; };
 		8A3A6EE22BFE01E200F281F6 /* RecentlyPlayedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentlyPlayedData.swift; sourceTree = "<group>"; };
+		8A3A6EE42BFE10E400F281F6 /* PlaylistData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				8A3A6EC72BFA2EAC00F281F6 /* MockData.swift */,
 				8A3A6ED32BFA8C6700F281F6 /* NavigationItem.swift */,
 				8A3A6EE22BFE01E200F281F6 /* RecentlyPlayedData.swift */,
+				8A3A6EE42BFE10E400F281F6 /* PlaylistData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 				8A3A6EC42BFA2D0E00F281F6 /* AlbumCard.swift in Sources */,
 				8A3A6EE32BFE01E200F281F6 /* RecentlyPlayedData.swift in Sources */,
 				8A3A6ED42BFA8C6700F281F6 /* NavigationItem.swift in Sources */,
+				8A3A6EE52BFE10E400F281F6 /* PlaylistData.swift in Sources */,
 				8A3A6EB22BFA26B200F281F6 /* MusicPlayerTvOSApp.swift in Sources */,
 				8A3A6EC62BFA2E8400F281F6 /* Album.swift in Sources */,
 				8A3A6EC82BFA2EAC00F281F6 /* MockData.swift in Sources */,
