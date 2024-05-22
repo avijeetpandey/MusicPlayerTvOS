@@ -57,4 +57,11 @@ class MockData {
         .init(id: UUID().uuidString, songName: "Unchi Unchi wadi", artistName: "Sukhwinder Singh"),
         .init(id: UUID().uuidString, songName: "Mere Shiva", artistName: "Avijeet"),
     ]
+    
+    static let mockPlaylistData: [PlaylistData] = [
+        .init(playlistTitle: "July 6th, 2021", playlistSubtitle: "Nadin Amizah.....", moreSongs: 9),
+        .init(playlistTitle: "July 6th, 2021", playlistSubtitle: "Nadin Amizah.....", moreSongs: 9),
+        .init(playlistTitle: "July 6th, 2021", playlistSubtitle: "Nadin Amizah.....", moreSongs: 9),
+        .init(playlistTitle: "July 6th, 2021", playlistSubtitle: "Nadin Amizah.....", moreSongs: 9)
+    ]
 }
