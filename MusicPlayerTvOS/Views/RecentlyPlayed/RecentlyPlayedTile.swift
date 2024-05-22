@@ -45,11 +45,21 @@ struct RecentlyPlayedTile: View {
             
             // trailing section
             HStack(spacing: 32) {
-                Image(systemName: "play.circle.fill")
-                    .imageScale(.large)
+                Button {
+                    
+                } label: {
+                    Image(systemName: "play.circle.fill")
+                        .imageScale(.large)
+                }.buttonStyle(.plain)
                 
-                Image(systemName: "ellipsis")
-                    .imageScale(.large)
+                
+                Button {
+                    
+                } label: {
+                    Image(systemName: "ellipsis")
+                        .imageScale(.large)
+                }.buttonStyle(.plain)
+                
             }
         }.padding(.vertical, 8)
     }
