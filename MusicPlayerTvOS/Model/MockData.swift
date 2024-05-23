@@ -5,7 +5,7 @@
 //  Created by Avijeet on 19/05/24.
 //
 
-import Foundation
+import SwiftUI
 
 // MARK: - MockData
 class MockData {
@@ -32,5 +32,36 @@ class MockData {
         NavigationItem(title: "Search", symbolName: "magnifyingglass", isSelected: false),
         NavigationItem(title: "Explore", symbolName: "map.fill", isSelected: false),
         NavigationItem(title: "Liked", symbolName: "heart.fill", isSelected: false),
+    ]
+    
+    static let colors: [Color] = [.red,
+                                  .pink,
+                                  .purple,
+                                  .teal,
+                                  .blue,
+                                  .cyan,
+                                  .brown,
+                                  .indigo,
+                                  .mint]
+    
+    
+    static var randomColor: Color {
+        colors[Int.random(in: 0..<colors.count)]
+    }
+    
+    
+    static let mockRecentlyPlayedData: [RecentlyPlayedData] = [
+        .init(id: UUID().uuidString, songName: "Wrecked", artistName: "Imagine Dragons"),
+        .init(id: UUID().uuidString, songName: "Eraluka", artistName: "Goodnight Electric"),
+        .init(id: UUID().uuidString, songName: "Resistance", artistName: "Muse"),
+        .init(id: UUID().uuidString, songName: "Unchi Unchi wadi", artistName: "Sukhwinder Singh"),
+        .init(id: UUID().uuidString, songName: "Mere Shiva", artistName: "Avijeet"),
+    ]
+    
+    static let mockPlaylistData: [PlaylistData] = [
+        .init(playlistTitle: "July 6th, 2021", playlistSubtitle: "Nadin Amizah.....", moreSongs: 9),
+        .init(playlistTitle: "July 6th, 2021", playlistSubtitle: "Nadin Amizah.....", moreSongs: 9),
+        .init(playlistTitle: "July 6th, 2021", playlistSubtitle: "Nadin Amizah.....", moreSongs: 9),
+        .init(playlistTitle: "July 6th, 2021", playlistSubtitle: "Nadin Amizah.....", moreSongs: 9)
     ]
 }

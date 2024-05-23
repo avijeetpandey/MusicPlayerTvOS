@@ -10,4 +10,6 @@ import Foundation
 // MARK: - AppConstants
 enum AppConstants: String {
     case homeTitle = "Home"
+    case recentlyPlayedTitle = "Recently Played"
+    case playlistTitle = "Your Lovely Playlist"
 }
