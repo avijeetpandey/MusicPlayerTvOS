@@ -17,14 +17,6 @@ class MockData {
         Album(id: UUID().uuidString, title: "New Album by Jay Dhaliwal", subtitle: "Shaaaan"),
         Album(id: UUID().uuidString, title: "New Album by B Praaak", subtitle: "Mitti di awaz"),
         Album(id: UUID().uuidString, title: "New Album by Ranjit Bawa", subtitle: "Tiger Singh"),
-        Album(id: UUID().uuidString, title: "New Album by Imagine dragons", subtitle: "Mercury Act: I"),
-        Album(id: UUID().uuidString, title: "New Album by Imagine dragons", subtitle: "Mercury Act: I"),
-        Album(id: UUID().uuidString, title: "New Album by Imagine dragons", subtitle: "Mercury Act: I"),
-        Album(id: UUID().uuidString, title: "New Album by Imagine dragons", subtitle: "Mercury Act: I"),
-        Album(id: UUID().uuidString, title: "New Album by Imagine dragons", subtitle: "Mercury Act: I"),
-        Album(id: UUID().uuidString, title: "New Album by Imagine dragons", subtitle: "Mercury Act: I"),
-        Album(id: UUID().uuidString, title: "New Album by Imagine dragons", subtitle: "Mercury Act: I"),
-        Album(id: UUID().uuidString, title: "New Album by Imagine dragons", subtitle: "Mercury Act: I"),
     ]
     
     static let mockNavigationItems: [NavigationItem] = [
